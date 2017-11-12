@@ -163,3 +163,57 @@ body {
         display: none;
     }
 }
+
+/* Hero image start */
+
+.hero {
+    padding: 0;
+}
+
+/* Hero image slut */
+
+/* Welcome card start */
+.welcome {
+    text-align: center;
+    background-color: white;
+    border: 5px solid #2b7194;
+    margin-top: -75px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.welcome h1 {
+    font-size: 32px;
+    color: #1c2742;
+}
+/* Welcome card slut */
+
+/* Bannere start */
+.banner {
+    margin-top: 15px;
+}
+
+.banner:first-of-type {
+    margin-top: 30px;
+}
+
+.banner:last-of-type {
+    border-bottom: 5px solid #2b7194;
+    padding-bottom: 30px;
+}
+
+/* Bannere slut*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
