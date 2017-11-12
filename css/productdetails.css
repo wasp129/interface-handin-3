@@ -1,0 +1,19 @@
+.jumbotron {
+    background: white;
+}
+
+.product__container {
+    width: 100%;
+    height: 200px;
+    background: #fff;
+    
+}
+
+.product__image {
+    height: 100%;
+    width: 100%;
+    background-image: url("https://c1.zzounds.com/media/fit,2018by3200/quality,85/1_Full_Straight_Front_NA-973aae4af30f7c057ddee4851c31f1b5.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
