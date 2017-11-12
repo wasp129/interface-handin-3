@@ -1,0 +1,165 @@
+@font-face {
+    font-family: "raleway-light";
+    src: url("../fonts/raleway/Raleway-Light.ttf");
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.nav-bar {
+    position: relative;
+    height: 75px;
+    width: 100%;
+    background-color: #1c2742;
+    font-family: "Helvetica Neue";
+    font-weight: 700;
+    border-bottom: 4px solid #2b7194;
+    overflow: hidden;
+    z-index: 17;
+}
+
+.nav-bar .nav-link {
+    color: white;
+    margin-left: 30px;
+    line-height: 75px;
+    display: inline;
+}
+
+.nav-bar .nav-link:first-of-type {
+    margin-left: 50px;
+}
+
+.nav-bar .nav-link:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    width: 90px;
+    margin: 11px 0 11px 20px;
+}
+
+.top-icons {
+    position: absolute;
+    height: 75px;
+    right: 0px;
+    top: 0;
+    z-index: 19;
+    background-color: #1c2742;
+}
+
+.user,
+.search {
+    float: left;
+    height: 75px;
+    width: 75px;
+    border-left: 1px solid white;
+    color: white;
+    padding: 18.5px 0 20px 20px;
+    cursor: pointer;
+}
+
+.avatar {
+    width: 50px;
+    position: absolute;
+    right: 12px;
+    bottom: 11px;
+}
+
+.fa {
+    font-size: 35px;
+}
+
+.fa:hover {
+    color: #2f7ca2;
+}
+
+.burger-menu {
+    height: 27px;
+    width: 75px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    cursor: pointer;
+}
+
+[class*="bar-"] {
+    height: 5px;
+    width: 45px;
+    background-color: white;
+    margin-top: 6px;
+}
+
+.bar-top {
+    margin-top: 0;
+}
+
+.search_bar_main input {
+    position: absolute;
+    top: 0;
+    right: -100%;
+    width: calc(100% - 264px);
+    background-color: white;
+    height: 75px;
+    border: 1px solid #414141;
+    margin-left: 115px;
+    margin-right: 149px;
+    font-size: 25px;
+    padding-left: 20px;
+    font-family: 'Helvetica Neue';
+    z-index: 18;
+}
+
+.side-menu {
+    height: 100vh;
+    width: 300px;
+    background-color: #1c2742;
+    border: 2px solid #2b7194;
+    position: fixed;
+    z-index: 16;
+    top: 0;
+    right: -300px;
+    font-family: 'montserrat-light';
+}
+
+.side-menu ul {
+    list-style: none;
+    margin-top: 100px;
+}
+
+.side-menu ul li {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.side-menu ul li a {
+    color: white;
+    font-family: "Helvetica Neue";
+}
+
+.side-menu ul li a:hover {
+    text-decoration: underline;
+}
+
+.search_bar_main input:focus {
+    outline: none;
+}
+
+@media screen and (max-width: 860px) {
+    .top-icons {
+        display: none;
+    }
+    .burger-menu {
+        display: block;
+    }
+    .nav-bar .nav-link {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1035px) {
+    .burger-menu {
+        display: none;
+    }
+}
